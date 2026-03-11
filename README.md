@@ -1,9 +1,6 @@
 # Highlight Instances — Blender Addon
 
-**Version:** 1.0.0  
-**Blender:** 3.0 and above  
-**Author:** Claude (Anthropic), directed by Kruglov Iurii  
-**Category:** Object  
+<img width="693" height="611" alt="image" src="https://github.com/user-attachments/assets/2c0017c4-7271-4b65-a55f-120822115277" />
 
 ---
 
@@ -79,12 +76,7 @@ Random colors are generated in HSV space with excluded hue ranges to avoid confu
 
 ---
 
-## Development history
 
-| Stage | Change |
-|---|---|
-| v0.1 | Material-based coloring via Principled BSDF — discarded due to Blender version incompatibilities |
-| v0.2 | Rebuilt using GPU draw handler overlay; no materials modified |
 | v0.3 | Red and blue excluded from random color range |
 | v0.4 | Shell thickness pass added via vertex normal offset |
 | v0.5 | Face culling removed from both draw passes |
